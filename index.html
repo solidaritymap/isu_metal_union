@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>현대차 앞 구사대·경찰 폭력 사건 신고 안내</title>
+  <script>
+    function copyText() {
+      const text = `2025년 4월 19일 12시 11분경, 울산 북구 염포로 700 현대자동차 정문 앞에서 구사대와 경찰에 의한 집단폭력이 발생했습니다.
+다리 밟힘, 손목·손가락 부상, 머리 가격에 의한 뇌진탕, 눈 출혈 등 심각한 부상이 발생했으며, 확인된 부상자만 15명 이상입니다.
+
+구사대의 폭행을 경찰이 방치하거나 가담했으며, 이는 경찰관직무집행법상 직권남용·직무유기, 형법상 폭행치상에 해당합니다. 쌍용차 사건 등 판례에서도 과잉진압과 사측 연계 폭력이 위법으로 인정된 바 있습니다.
+
+이에 본 사건에 대한
+① 독립적 진상조사,
+② 구사대 및 관련 경찰의 수사 및 처벌,
+③ 피해자 보호 및 보상,
+④ 재발방지 대책 마련
+을 강력히 요청합니다.
+
+국민의 기본권 침해가 반복되지 않도록 철저한 조치를 요구합니다.`;
+      navigator.clipboard.writeText(text).then(() => {
+        alert("✅ 본문이 복사되었습니다. 이제 국민신문고에서 신고를 진행해주세요!");
+      }).catch(err => {
+        alert("복사에 실패했습니다: " + err);
+      });
+    }
+  </script>
+</head>
+<body>
+
+<h2>📢 현대차 앞 구사대·경찰 폭력 사건 진상조사 및 처벌 요청</h2>
+
+<button onclick="copyText()" style="padding: 10px 20px; font-size: 16px; border-radius: 8px;">📋 본문 복사하기</button>
+
+<hr>
+
+<h3>✍️ 국민신문고 신고 방법</h3>
+<ol>
+  <li><a href="https://www.epeople.go.kr/index.paid" target="_blank">국민신문고 바로가기</a>로 이동합니다.</li>
+  <li>상단 메뉴에서 <strong>민원신청</strong>을 클릭합니다.</li>
+  <li><strong>민원 발생 지역</strong>을 <mark>울산</mark> → <mark>북구</mark>로 선택합니다.</li>
+  <li>민원 내용에 <strong>복사한 본문을 붙여넣기</strong>합니다.</li>
+  <li>필수 항목을 입력한 뒤 민원을 제출합니다.</li>
+</ol>
+
+<p>❗ 국민의 기본권 침해를 막기 위해, 꼭 많은 신고가 필요합니다.</p>
+
+</body>
+</html>
